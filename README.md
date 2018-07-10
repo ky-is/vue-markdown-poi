@@ -7,7 +7,7 @@ A lightweight Vue component for rendering content with a [Markdown](https://dari
 Note: This module is not currently available pre-built. As such, your project will need a build step to use it. Or just copy the code directly into your project.
 
 ```console
-npm install @ky-is/vue-markdown-poi
+npm install --save-dev @ky-is/vue-markdown-poi
 ```
 
 ## Usage
@@ -40,3 +40,18 @@ import MarkdownPoi from 'vue-markdown-poi'
 
 - **raw** _String_: Text to be parsed and rendered.
 - **inline** _Boolean_: If text should be rendered without multiline tags (only renders strikeout/bold/italics in this mode). Useful if you want a summary preview of content.
+
+## Syntax
+
+Style (any combination of):
+- `*bold*` **bold**
+- `/italics/` _italics_
+- `~strikethrough~` ~~strikethrough~~
+
+Blocks (must start on a new line, no nesting):
+
+- `- Bullets`
+
+> `> Quotes`
+
+Paragraphs: Delineated by multiple consecutive newlines.
