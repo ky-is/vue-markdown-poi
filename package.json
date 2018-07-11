@@ -2,7 +2,7 @@
 	"name": "@ky-is/vue-markdown-poi",
 	"version": "0.1.0",
 	"description": "A lightweight Vue component for rendering content with a markdown-like syntax subset.",
-	"main": "index.vue",
+	"main": "src/index.vue",
 	"author": "Kyle Coburn",
 	"license": "ISC",
 	"repository": {
