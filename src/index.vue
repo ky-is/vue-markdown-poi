@@ -13,9 +13,6 @@ const REGEX_MULTI_WHITESPACE = /\n\s*\n/g
 const ESCAPE_ENTITIES = {
 	'&': '&amp;',
 	'<': '&lt;',
-	'"': '&quot;',
-	"'": '&#39;',
-	'`': '&#x60;',
 }
 const REGEX_ESCAPE = new RegExp(`[${Object.keys(ESCAPE_ENTITIES).join('')}]`, 'g')
 
