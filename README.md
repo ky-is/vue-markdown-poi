@@ -55,3 +55,5 @@ Blocks (must start on a new line, no nesting):
 > `> Quotes`
 
 Paragraphs: Delineated by multiple consecutive newlines.
+
+Links: Parses urls starting with http(s)* or www.*
