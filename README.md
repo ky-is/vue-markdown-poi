@@ -14,25 +14,25 @@ npm install --save-dev @ky-is/vue-markdown-poi
 
 ```html
 <template>
-	<markdown-poi :raw="sourceString" inline />
+  <markdown-poi :raw="sourceString" inline />
 </template>
 ```
 ```js
 import MarkdownPoi from 'vue-markdown-poi'
 // ...
-	components: {
-		MarkdownPoi
-	},
+  components: {
+    MarkdownPoi
+  },
 
-	data () {
-		return {
-			sourceString: `
+  data () {
+    return {
+      sourceString: `
 ~strikeout~*bold*/italic/ ~*/sbi/*~ /*~ibs~*/
 - Bullet
 > Quote
-			`
-		}
-	},
+      `
+    }
+  },
 // ...
 ```
 
