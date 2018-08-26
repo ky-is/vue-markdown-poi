@@ -57,6 +57,9 @@
 			}
 		}
 	},
+	"eslintConfig": {
+		"extends": "@ky-is/eslint-config/vue"
+	},
 	"jest": {
 		"testURL": "http://localhost",
 		"moduleFileExtensions": [
