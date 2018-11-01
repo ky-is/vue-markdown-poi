@@ -62,6 +62,9 @@
 	},
 	"jest": {
 		"testURL": "http://localhost",
+		"testMatch": [
+			"<rootDir>/tests/**/*.spec.js"
+		],
 		"moduleFileExtensions": [
 			"js",
 			"json",
