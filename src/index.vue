@@ -31,8 +31,14 @@ function closeInside (lines, idx, inside) {
 
 export default {
 	props: {
-		raw: String,
-		inline: Boolean,
+		raw: {
+			type: String,
+			default: undefined,
+		},
+		inline: {
+			type: Boolean,
+			default: false,
+		},
 	},
 
 	computed: {
