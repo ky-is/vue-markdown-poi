@@ -40,6 +40,7 @@ import MarkdownPoi from 'vue-markdown-poi'
 
 - **raw** _String_: Text to be parsed and rendered.
 - **inline** _Boolean_: If text should be rendered without multiline tags (only renders strikeout/bold/italics in this mode). Useful if you want a summary preview of content.
+- **tag** _String_: The tag name to wrap rendered markdown in. Defaults to `div`.
 
 ## Syntax
 
