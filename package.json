@@ -1,6 +1,6 @@
 {
 	"name": "@ky-is/vue-markdown-poi",
-	"version": "0.2.1",
+	"version": "1.0.0",
 	"description": "A lightweight Vue component for rendering content with a markdown-like syntax subset.",
 	"main": "src/index.vue",
 	"author": "Kyle Coburn",
@@ -21,6 +21,9 @@
 	"scripts": {
 		"test": "jest"
 	},
+	"files": [
+		"src"
+	],
 	"devDependencies": {
 		"@ky-is/eslint-config": "^1.8.2",
 		"@vue/test-utils": "^1.0.0-beta.30",
