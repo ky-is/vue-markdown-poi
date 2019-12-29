@@ -1,5 +1,5 @@
 <template>
-	<div v-html="markdown" class="markdown-poi" />
+	<Component :is="tag" v-html="markdown" class="markdown-poi" />
 </template>
 
 <script>
@@ -38,6 +38,10 @@ export default {
 		inline: {
 			type: Boolean,
 			default: false,
+		},
+		tag: {
+			type: String,
+			default: 'div',
 		},
 	},
 
